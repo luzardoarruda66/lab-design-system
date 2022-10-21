@@ -1,5 +1,4 @@
 import { Meta, StoryObj } from '@storybook/react';
-import { Envelope } from 'phosphor-react';
 import { Radiobutton, RadiobuttonRootProps } from "./Radiobutton";
 
 export default {

@@ -31,6 +31,16 @@ module.exports = {
       fontFamily: {
         sans: "Inter, sans-serif",
       },
+      keyframes:{
+        toggleActive: {
+          '0%':{right: '20px'},
+          '100%':{right: '-4px'}
+        },
+        toggleInactive: {
+          '0%':{right: '-4px'},
+          '100%':{right: '20px'}
+        },
+      }
     },
   },
   plugins: [],
